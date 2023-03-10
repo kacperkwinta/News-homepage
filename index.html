@@ -1,60 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- favicon -->
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./assets/images/favicon-32x32.png"
+		/>
+		<!-- google fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- css -->
+		<link rel="stylesheet" href="css/style.css" />
+		<title>Frontend Mentor | News homepage</title>
+	</head>
+	<body>
+		<header>
+			<nav>
+				<img src="images/logo.svg" class="logo" alt="Logo" />
+				<div class="menu-links">
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">New</a></li>
+						<li><a href="#">Popular</a></li>
+						<li><a href="#">Trending</a></li>
+						<li><a href="#">Categories</a></li>
+					</ul>
+				</div>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | News homepage</title>
+				<!-- mobile menu btn -->
+				<button class="mobile-menu">
+					<img src="images/icon-menu.svg" alt="" class="mobile-menu--open" />
+					<img
+						src="images/icon-menu-close.svg"
+						alt=""
+						class="mobile-menu--close hidden"
+					/>
+				</button>
+			</nav>
+			<!-- mobile menu overlay -->
+			<div class="overlay hidden"></div>
+		</header>
+		<img src="images/image-gaming-growth.jpg" alt="" />
+		Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi cumque
+		pariatur tempora provident cupiditate laboriosam nemo amet dicta doloremque
+		eius minima tempore deleniti, error asperiores perferendis harum. Ea,
+		dignissimos est necessitatibus veritatis nemo tempora, deleniti ad eaque
+		repellat voluptate ipsam blanditiis? Eligendi vitae beatae fuga dolore non
+		tempore exercitationem soluta in aut assumenda eius, nobis dolorum est,
+		saepe voluptates architecto. Doloremque qui ad voluptas autem perspiciatis
+		repudiandae, tenetur placeat repellat odit accusantium consectetur magnam
+		fugiat nam totam velit consequatur. Earum, qui dolorum at quibusdam
+		reprehenderit harum! Magni, in. Reiciendis veritatis minima, totam iste
+		earum atque animi consequuntur iusto hic magni modi aperiam velit nihil ab
+		possimus accusamus. Deleniti cumque alias, commodi sequi placeat dolorum
+		explicabo nisi hic quam quas eaque inventore similique eum, ipsum nostrum
+		labore ad suscipit doloremque veniam perspiciatis harum? Culpa, ut, harum,
+		animi reprehenderit cum veniam totam delectus distinctio voluptate ad
+		debitis beatae. Nihil quidem et unde soluta autem aut. Quae ratione
+		repudiandae quam fugit non quasi porro cumque nisi fugiat? Possimus tempore
+		praesentium assumenda beatae dolore, recusandae neque culpa ratione
+		cupiditate rem sapiente magni eveniet, unde velit voluptates numquam
+		tempora. Dicta, accusantium eveniet ratione officia maxime repudiandae quasi
+		tenetur a numquam cumque? Quo nam, exercitationem fugiat molestias sunt,
+		quis odio porro minima officia error consequatur eaque nemo quod. Tenetur
+		esse distinctio repellat omnis modi quae unde quibusdam maiores, iusto nemo.
+		Reprehenderit atque voluptate tempora blanditiis ipsum? Quas, esse in earum
+		iste et laudantium. Saepe fugiat ipsum et a dignissimos soluta, iusto
+		repellendus temporibus quia consequatur iste!
+		<!-- Home New Popular Trending Categories The Bright Future of Web 3.0? We dive
+		into the next evolution of the web that claims to put the power of the
+		platforms back into the hands of the people. But is it really fulfilling its
+		promise? Read more New Hydrogen VS Electric Cars Will hydrogen-fueled cars
+		ever catch up to EVs? The Downsides of AI Artistry What are the possible
+		adverse effects of on-demand AI image generation? Is VC Funding Drying Up?
+		Private funding by VC firms is down 50% YOY. We take a look at what that
+		means. 01 Reviving Retro PCs What happens when old PCs are given modern
+		upgrades? 02 Top 10 Laptops of 2022 Our best picks for various needs and
+		budgets. 03 The Growth of Gaming How the pandemic has sparked fresh
+		opportunities. -->
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-  Home
-  New
-  Popular
-  Trending
-  Categories
-
-  The Bright Future of Web 3.0?
-
-  We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
-  But is it really fulfilling its promise?
-
-  Read more
-
-  New 
-
-  Hydrogen VS Electric Cars
-  Will hydrogen-fueled cars ever catch up to EVs?
-
-  The Downsides of AI Artistry
-  What are the possible adverse effects of on-demand AI image generation?
-
-  Is VC Funding Drying Up?
-  Private funding by VC firms is down 50% YOY. We take a look at what that means.
-
-  01
-  Reviving Retro PCs
-  What happens when old PCs are given modern upgrades?
-
-  02
-  Top 10 Laptops of 2022
-  Our best picks for various needs and budgets.
-
-  03
-  The Growth of Gaming
-  How the pandemic has sparked fresh opportunities.
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+		<!-- <div class="attribution">
+			Challenge by
+			<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+				>Frontend Mentor</a
+			>. Coded by <a href="#">Your Name Here</a>.
+		</div> -->
+		<script src="js/script.js"></script>
+	</body>
 </html>
